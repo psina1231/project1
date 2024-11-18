@@ -1,0 +1,19 @@
+li a {
+    color: rgb(235, 232, 255);
+}
+
+body {
+    background: white url("images/b2.gif") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.polls-title {
+    font-size: 75px; 
+    color: #f0f2f8; 
+   
+    font-weight: bold; 
+    line-height: 0.8; 
+}
+

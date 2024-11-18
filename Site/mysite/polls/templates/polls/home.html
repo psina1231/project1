@@ -1,0 +1,21 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <!-- Подключаем внешний CSS файл через статический тег Django -->
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/style1.css' %}">
+</head>
+<body>
+    <!-- Заголовок с классом для стилизации -->
+    <h1 class="polls-title">Готовы участвовать в опросе?</h1>
+
+    <!-- Кнопка с ссылкой на /polls/ -->
+    <a href="/polls/">
+        <button class="polls-button">Да</button>
+    </a>
+</body>
+</html>
